@@ -71,16 +71,16 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Full-Stack Web Development (MERN Stack, PHP, Python, Java)",
-  "AI & Machine Learning Solutions",
-  "Data Analytics & Dashboard Development (Power BI, Python)",
-  "IoT & Embedded Systems (ESP32, Sensors, Automation)",
-  "Cybersecurity & DDoS Detection"],
+    strings: [
+        "Full-Stack Web Development (MERN Stack, PHP, Python, Java)", 
+        "AI &amp; Machine Learning Solutions", 
+        "Data Analytics &amp; Dashboard Development (Power BI, Python)", 
+        "IoT &amp; Embedded Systems (ESP32, Sensors, Automation)", 
+        "Cybersecurity &amp; DDoS Detection"
+    ],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
-    backDelay: 500,
-});
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
