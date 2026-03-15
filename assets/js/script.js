@@ -81,6 +81,8 @@ var typed = new Typed(".typing-text", {
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
+    backDelay: 2000,
+});
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
